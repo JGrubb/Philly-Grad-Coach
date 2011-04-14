@@ -1,0 +1,15 @@
+name = "Philly Grad Coach"
+description = "A custom theme for the trainer section of Philly Grad Coach"
+base theme = "tao"
+core = "6.x"
+engine = "phptemplate"
+
+regions[left] = "Left sidebar"
+regions[right] = "Right sidebar"
+regions[account_nav] = "Account Navigation"
+regions[content] = "Content"
+regions[header] = "Header"
+regions[footer] = "Footer"
+
+stylesheets[screen][] = "css/style.css"
+stylesheets[screen][] = "css/960.css"

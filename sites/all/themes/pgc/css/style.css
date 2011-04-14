@@ -1,0 +1,34 @@
+body {
+	font-family:'lucida grande', arial, helvetica, sans-serif;
+	color:#333;
+	font-size:90%/1.4;
+}
+
+#header {
+	background:#00437e;
+	padding-top:10px;
+}
+
+#inner-header {
+	background:#dff1ff;
+	padding-top:10px;
+	border-bottom:4px solid #5391c3;
+}
+
+#site-name,
+#slogan {
+	text-align:center;
+}
+
+#site-name a {
+	font-size:150%;
+	color:#444;
+	text-decoration:none;
+}
+
+#inner-main {
+	padding-left:20px;
+}
+
+#inner-right {
+}
