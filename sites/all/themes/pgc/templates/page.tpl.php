@@ -13,18 +13,11 @@
 				  <?php print $skipnav ?>
 					<div class="grid_16">
 
-				  <?php if ($help || ($show_messages && $messages)): ?>
-				    <div id='console'><div class='limiter clear-block'>
-				      <?php print $help; ?>
-				      <?php if ($show_messages && $messages): print $messages; endif; ?>
-				    </div></div>
-				  <?php endif; ?>
-
 				  <div id='branding'><div class='limiter clear-block'>
-						<div id="logo" class="grid_4 alpha">
+						<div id="logo" class="grid_5 alpha">
 				    	<a href="/"><img src="/<?php print $directory ?>/images/logo.jpg"></a>
 						</div>
-						<div class="grid_12 omega">
+						<div class="grid_11 omega">
 						<?php if ($header): ?>
 					    <div id='header-block'><div class='limiter clear-block'>
 					      <?php print $header; ?>
@@ -34,6 +27,12 @@
 							<div id="slogan"><?php print $site_slogan?></div>
 						</div>
 				  </div></div>
+					<?php if ($help || ($show_messages && $messages)): ?>
+				    <div id='console'><div class='limiter clear-block'>
+				      <?php print $help; ?>
+				      <?php if ($show_messages && $messages): print $messages; endif; ?>
+				    </div></div>
+				  <?php endif; ?>
 					</div>
 				</div>
 				<div class="clear-block"></div>
@@ -50,11 +49,11 @@
 		
 		<div id="main-wrapper">
 			<?php if ($account_nav): ?>
-			<div id="account-nav">
+			<div class="grid_13" id="account-nav">
 				<?php print $account_nav ?>
 			</div>
 			<?php endif; ?>
-	    <div id='main' class='clear-block grid_9 alpha'>
+	    <div id='main' class='clear-block grid_9'>
 				<div id="inner-main">
 	        <?php if ($breadcrumb) print $breadcrumb; ?>
 	        <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
@@ -66,7 +65,7 @@
 	    </div>
 
 	    <?php if ($right): ?>
-	      <div id='right' class='clear-block grid_4 omega'>
+	      <div id='right' class='clear-block grid_4'>
 					<div id="inner-right">
 					<?php print $right ?>
 					</div>

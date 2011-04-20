@@ -1,5 +1,5 @@
 body {
-	font-family:'lucida grande', arial, helvetica, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	color:#333;
 	font-size:90%/1.4;
 }
@@ -7,12 +7,16 @@ body {
 #header {
 	background:#00437e;
 	padding-top:10px;
+	margin-bottom:5px;
 }
 
 #inner-header {
 	background:#dff1ff;
-	padding-top:10px;
 	border-bottom:4px solid #5391c3;
+}
+
+#logo {
+	margin-top:10px;
 }
 
 #site-name,
@@ -21,13 +25,105 @@ body {
 }
 
 #site-name a {
-	font-size:150%;
+	font-size:175%;
 	color:#444;
 	text-decoration:none;
 }
 
-#inner-main {
+#slogan {
+	font-size:115%;
+}
+
+#user-login-form .form-item {
+	margin-bottom:10px;
+}
+
+#user-login-form input {
+	width:90%;
+	font-size:1.2em;
+	padding:1px 3px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+
+#user-login-form #edit-submit {
+	float:right;
+	width:40%;
+	border:1px solid #bbb;
+	margin-top:10px;
+	padding:0 3px;
+	background:#ddd;
+	font-size:1em;
+}
+
+#user-login-form #edit-submit:hover {
+	box-shadow:0 0 3px #888;
+}
+
+#user-login-form .item-list ul li a {
+	text-decoration:none;
+}
+
+#user-login-form .item-list ul li a:hover {
+	text-decoration:underline;
+}
+
+ul.primary-tabs a,
+.form-submit,
+ul.secondary-tabs a {
+	padding:1px 10px;
+	background:#F6F6F6;
+	background:-webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#ddd));
+	border:1px solid #999;
+	margin-right:10px;
+	-mox-border-radius:2px;
+	border-radius:2px;
+}
+
+.form-submit,
+ul.secondary-tabs {
+	margin-top:10px;
+}
+
+ul.primary-tabs a:hover,
+.form-submit:hover,
+ul.secondary-tabs a:hover {
+	-moz-box-shadow:0 0 3px #999;
+	box-shadow:0 0 3px #999;
+}
+
+.block-title {
+	display:block;
+	font-size:1.3em;
+	font-weight:bold;
+	background:#eee;
+	padding:5px;
 	padding-left:20px;
+	margin-bottom:20px;
+}
+
+#block-menu-menu-account-nav {
+	margin-bottom:20px;
+}
+
+#block-menu-menu-account-nav a {
+	color:#888;
+	font-size:1.2em;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 20px;
+	background:#dff1ff;
+	border:1px solid #ccc;
+	border-top:none;
+	-moz-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+}
+
+#left {
+	padding-top:20px;
+}
+
+#inner-main {
 }
 
 #inner-right {
