@@ -42,36 +42,33 @@
 	<div class="container_16">
 
   	<div id='page'><div class='limiter clear-block'>
-
-    <?php if ($left): ?>
       <div id='left' class='clear-block grid_3'><?php print $left ?></div>
-    <?php endif; ?>
 		
-		<div id="main-wrapper">
-			<?php if ($account_nav): ?>
-			<div class="grid_13" id="account-nav">
-				<?php print $account_nav ?>
-			</div>
-			<?php endif; ?>
-	    <div id='main' class='clear-block grid_9'>
-				<div id="inner-main">
-	        <?php if ($breadcrumb) print $breadcrumb; ?>
-	        <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
-	        <?php if ($title): ?><h1 class='page-title'><?php print $title ?></h1><?php endif; ?>
-	        <?php if ($tabs) print $tabs ?>
-	        <?php if ($tabs2) print $tabs2 ?>
-	        <div id='content' class='clear-block'><?php print $content ?></div>
+			<div id="main-wrapper">
+				<?php if ($account_nav): ?>
+				<div class="grid_13" id="account-nav">
+					<?php print $account_nav ?>
 				</div>
-	    </div>
-
-	    <?php if ($right): ?>
-	      <div id='right' class='clear-block grid_4'>
-					<div id="inner-right">
-					<?php print $right ?>
+				<?php endif; ?>
+		    <div id='main' class='clear-block grid_10'>
+					<div id="inner-main">
+		        <?php if ($breadcrumb) print $breadcrumb; ?>
+		        <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
+		        <?php if ($title): ?><h1 class='page-title'><?php print $title ?></h1><?php endif; ?>
+		        <?php if ($tabs) print $tabs ?>
+		        <?php if ($tabs2) print $tabs2 ?>
+		        <div id='content' class='clear-block'><?php print $content ?></div>
 					</div>
-				</div>
-	    <?php endif; ?>
-		</div><!-- end main-wrapper-->
+		    </div>
+
+		    <?php if ($right): ?>
+		      <div id='right' class='clear-block grid_3'>
+						<div id="inner-right">
+						<?php print $right ?>
+						</div>
+					</div>
+		    <?php endif; ?>
+			</div><!-- end main-wrapper-->
 
   </div></div>
 

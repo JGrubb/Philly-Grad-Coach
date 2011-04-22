@@ -1,4 +1,0 @@
-name = Philly Grad Campaign profiles
-description = Provides for the collection of custom profile information for the Philly Grad Campaign's trainer section.
-package = Philly Grad Campaign
-core = 6.x
