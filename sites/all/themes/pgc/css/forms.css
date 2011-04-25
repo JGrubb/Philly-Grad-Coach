@@ -1,0 +1,93 @@
+#node-form input {
+	font-size:1em;
+	padding:3px;
+	width:90%;
+	border:1px solid #999;
+}
+
+.form-item-labeled {
+	margin-bottom:10px;
+}
+
+.container-inline-date #edit-field-event-date-0-value-datepicker-popup-0-wrapper {
+	width:40%;
+}
+
+#edit-field-location-phone-0-value-wrapper {
+	width:25%;
+	float:left;
+	margin-right:7px;
+}
+
+#edit-field-liason-name-0-value-wrapper {
+	width:32%;
+	float:left;
+	margin-right:7px;
+}
+
+#edit-field-liason-phone-0-value-wrapper {
+	width:34%;
+	float:left;
+}
+
+#edit-field-audience-members-0-value-wrapper {
+	clear:both;
+}
+
+#edit-field-city-0-value-wrapper {
+	width:30%;
+	float:left;
+}
+
+#edit-field-state-value-wrapper {
+	width:20%;
+	float:left;
+}
+
+#node-form select {
+	width:90%;
+	border:1px solid #999;
+	font-size:1em;
+	padding:2px;
+}
+
+#edit-field-zip-0-value-wrapper {
+	width:30%;
+	float:left;
+}
+
+#edit-field-trainer-arrival-0-value-wrapper,
+#edit-field-trainer-departure-0-value-wrapper {
+	width:40%;
+	float:left;
+}
+
+#edit-field-trainer-arrival-0-value-wrapper {
+	margin-right:50px;
+}
+
+#edit-field-number-of-trainers-value-wrapper {
+	width:25%;
+	clear:both;
+	float:left;
+	margin-right:25px;
+}
+
+#edit-field-number-of-trainers-value-wrapper select {
+	width:40%;
+}
+
+#edit-field-trainer-uid-uid-wrapper {
+	width:70%;
+	float:left;
+}
+
+#node-form input.form-submit {
+	width:100px;
+	float:left;
+}
+
+#edit-field-notes-0-value-wrapper {
+	clear:both;
+}
+

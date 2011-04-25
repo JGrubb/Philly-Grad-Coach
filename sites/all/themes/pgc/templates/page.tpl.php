@@ -52,8 +52,6 @@
 				<?php endif; ?>
 		    <div id='main' class='clear-block grid_10'>
 					<div id="inner-main">
-		        <?php if ($breadcrumb) print $breadcrumb; ?>
-		        <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
 		        <?php if ($title): ?><h1 class='page-title'><?php print $title ?></h1><?php endif; ?>
 		        <?php if ($tabs) print $tabs ?>
 		        <?php if ($tabs2) print $tabs2 ?>

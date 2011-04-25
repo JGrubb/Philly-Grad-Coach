@@ -13,3 +13,5 @@ regions[footer] = "Footer"
 
 stylesheets[screen][] = "css/style.css"
 stylesheets[screen][] = "css/960.css"
+stylesheets[screen][] = "css/views.css"
+stylesheets[screen][] = "css/forms.css"

@@ -15,8 +15,8 @@
   <?php endif; ?>
 
   <?php if (!empty($content)): ?>
-    <div class='<?php print $hook ?>-content clear-block <?php if (!empty($is_prose)) print 'prose' ?>'>
-      <?php print $content ?>
+    <div class='<?php print $hook ?>-content clear-block <?php if (!empty($is_prose)) print 'prose' ?> <?php print $flag_classes; ?>'>
+      <?php print $content;	?>
     </div>
   <?php endif; ?>
 

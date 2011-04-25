@@ -1,0 +1,50 @@
+a.unflag-action {
+	visibility:hidden;
+}
+
+.node-flagged-event-bookmark-self {
+	background:#DCFFDF;
+	padding:10px;
+}
+
+td.active {
+	background:none;
+}
+
+table th {
+	text-align:left;
+	text-decoration:underline;
+}
+
+.view-content table tr {
+	height:30px;
+}
+
+.view-id-home_listing .views-row {
+	padding:20px;
+	background:#f8f8f8;
+	margin:5px 0;
+	position:relative;
+}
+
+.view-id-home_listing .views-field-field-address-value,
+.view-id-home_listing .views-field-field-city-value,
+.view-id-home_listing .views-field-field-state-value {
+	float:left;
+	margin-right:8px;
+}
+
+.view-id-home_listing .views-field-edit-node {
+	clear:both;
+	float:left;
+	margin-right:30px;
+}
+
+.view-id-home_listing .views-field-view-node {
+}
+
+.view-id-home_listing .flag-wrapper {
+	position:absolute;
+	top:20px;
+	right:50px;
+}
