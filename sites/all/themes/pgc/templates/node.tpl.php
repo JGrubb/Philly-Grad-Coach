@@ -10,10 +10,6 @@
     </h2>
   <?php endif; ?>
 
-  <?php if (!empty($submitted)): ?>
-    <div class='<?php print $hook ?>-submitted clear-block'><?php print $submitted ?></div>
-  <?php endif; ?>
-
   <?php if (!empty($content)): ?>
     <div class='<?php print $hook ?>-content clear-block <?php if (!empty($is_prose)) print 'prose' ?> <?php print $flag_classes; ?>'>
       <?php print $content;	?>

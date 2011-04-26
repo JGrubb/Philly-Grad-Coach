@@ -1,5 +1,5 @@
 a.unflag-action {
-	visibility:hidden;
+	/*visibility:hidden;*/
 }
 
 .node-flagged-event-bookmark-self {
@@ -20,11 +20,21 @@ table th {
 	height:30px;
 }
 
-.view-id-home_listing .views-row {
+.view-id-home_listing .views-row,
+.view-id-my_events .views-row {
 	padding:20px;
-	background:#f8f8f8;
+	background:#f6f6f6;
 	margin:5px 0;
 	position:relative;
+}
+
+.view-id-my_events .views-row {
+	background:#DCFFDF;
+}
+
+.view-id-my_events .views-field-title,
+.view-id-home_listing .views-field-title {
+	font-weight:bold;
 }
 
 .view-id-home_listing .views-field-field-address-value,
@@ -43,8 +53,9 @@ table th {
 .view-id-home_listing .views-field-view-node {
 }
 
-.view-id-home_listing .flag-wrapper {
+.view-id-home_listing .views-field-field-trainer-uid {
 	position:absolute;
 	top:20px;
-	right:50px;
+	left:460px;
+	text-decoration: underline;
 }

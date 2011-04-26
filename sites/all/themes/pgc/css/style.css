@@ -195,3 +195,19 @@ ul.secondary-tabs a:hover {
 	padding-left:20px;
 	background:url(../images/link-bg.jpg) no-repeat left center;
 }
+
+.node-event {
+	background:#f6f6f6;
+	padding:20px;
+}
+
+.node-event .field {
+	margin-bottom:7px;
+	font-size:1.1em;
+}
+
+.node-event .field-label {
+	display:inline-block;
+	float:left;
+	width:10em;
+}
