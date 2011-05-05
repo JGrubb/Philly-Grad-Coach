@@ -15,7 +15,7 @@
 
 				  <div id='branding'><div class='limiter clear-block'>
 						<div id="logo" class="grid_5 alpha">
-				    	<a href="/"><img src="/<?php print $directory ?>/images/logo.jpg"></a>
+				    	&nbsp;
 						</div>
 						<div class="grid_11 omega">
 						<?php if ($header): ?>
@@ -27,12 +27,6 @@
 							<div id="slogan"><?php print $site_slogan?></div>
 						</div>
 				  </div></div>
-					<?php if ($help || ($show_messages && $messages)): ?>
-				    <div id='console'><div class='limiter clear-block'>
-				      <?php print $help; ?>
-				      <?php if ($show_messages && $messages): print $messages; endif; ?>
-				    </div></div>
-				  <?php endif; ?>
 					</div>
 				</div>
 				<div class="clear-block"></div>
@@ -44,13 +38,20 @@
   	<div id='page'><div class='limiter clear-block'>
       <div id='left' class='clear-block grid_3'><?php print $left ?></div>
 		
-			<div id="main-wrapper">
+			<div class="grid_13">
+			 <div id="main-wrapper">
 				<?php if ($account_nav): ?>
-				<div class="grid_13" id="account-nav">
+				<div class="" id="account-nav">
 					<?php print $account_nav ?>
 				</div>
 				<?php endif; ?>
-		    <div id='main' class='clear-block grid_10'>
+				<?php if ($help || ($show_messages && $messages)): ?>
+		    <div id='console'><div class='limiter clear-block'>
+		      <?php print $help; ?>
+		      <?php if ($show_messages && $messages): print $messages; endif; ?>
+		    </div></div>
+				<?php endif; ?>
+		    <div id='main' class='clear-block grid_10 alpha'>
 					<div id="inner-main">
 		        <?php if ($title): ?><h1 class='page-title'><?php print $title ?></h1><?php endif; ?>
 		        <?php if ($tabs) print $tabs ?>
@@ -60,12 +61,14 @@
 		    </div>
 
 		    <?php if ($right): ?>
-		      <div id='right' class='clear-block grid_3'>
+		      <div id='right' class='clear-block grid_3 omega'>
 						<div id="inner-right">
 						<?php print $right ?>
 						</div>
 					</div>
 		    <?php endif; ?>
+		    <div class="clear"></div>
+		   </div>
 			</div><!-- end main-wrapper-->
 
   </div></div>

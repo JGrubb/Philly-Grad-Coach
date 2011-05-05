@@ -91,3 +91,187 @@
 	clear:both;
 }
 
+#registration_form {
+	padding:15px;
+}
+
+#registration_form .half-field .form-item,
+#user-profile-form .form-item {
+	float:left;
+	width:45%;
+	margin-right:20px;
+}
+
+#registration_form .half-field .form-item input,
+#user-profile-form .form-item input {
+	width:90%;
+}
+
+#profile-roles h2,
+.fieldset-title {
+	font-size:18px;
+	margin-bottom:15px; 
+}
+
+#profile-roles {
+	margin-bottom:20px;
+	overflow:auto;
+}
+
+.roles-field {
+	height:30px;
+}
+
+#profile-roles .roles-option {
+	float:left;
+	width:130px;
+	display:block;
+	font-weight:bold;
+}
+
+.roles-option label.option {
+	font-weight: bold;
+}
+
+.roles-field .info {
+	width:70%;
+	float:right; 
+}
+
+.fieldset-title {
+	font-weight: bold;
+}
+
+#edit-profile-city-wrapper {
+	float:left;
+}
+
+#edit-profile-city-wrapper input {
+	width:180px;
+	margin-right:20px;
+}
+
+#edit-profile-state-wrapper {
+	float:left;
+}
+
+#edit-profile-state-wrapper select {
+	width:80px;
+	margin-right:20px;
+}
+
+#edit-profile-zip {
+	float:left;
+	width:120px;
+}
+
+#location {
+	width:450px;
+}
+
+#location .form-item {
+	width:30%;
+	float:left;
+	height:25px;
+}
+
+#time {
+	width:500px;
+}
+
+#time tr {
+	height:30px;
+}
+
+#time td,
+#time th {
+	border:1px solid #bbb;
+	padding-left:30px;
+	text-decoration:none;
+}
+
+fieldset {
+	margin:20px 0;
+}
+
+#flag-confirmation {
+	position:absolute;
+	left:120px;
+	top:-50px;
+	width:250px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	background:#dff1ff;
+	-moz-box-shadow: -3px 3px 5px #888;
+	box-shadow: -3px 3px 5px #888;
+}
+
+#flag-confirmation h2 {
+	font-size: 18px;
+	color:green;
+	text-align: center;
+}
+
+#flag-confirmation #flag-top {
+	padding:15px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+#flag-top p {
+	line-height:16px;
+	margin-top:10px;
+	font-size:90%;
+}
+
+#flag-bottom {
+	background:#ddd;
+	border-top:1px solid #888;
+}
+
+.profile h3 {
+	margin:10px 0;
+	border-bottom:2px solid #eee;
+}
+
+.profile dt {
+	font-weight:bold;
+	float:left;
+	width:120px;
+}
+
+#user-profile-form .description {
+	display:none;
+}
+
+#user-profile-form .form-item.form-option {
+	width:25%;
+	border:1px solid #ddd;
+	margin-right:0;
+	padding:5px;
+}
+
+#user-profile-form .form-item#edit-profile-address-wrapper {
+	width:90%;
+}
+
+#user-profile-form .form-item#edit-profile-city-wrapper {
+	width:30%;
+}
+
+#user-profile-form .form-item#edit-profile-state-wrapper {
+	width:20%;
+}
+
+#user-profile-form .form-item#edit-profile-zip-wrapper {
+	width:30%;
+}
+
+#user-profile-form .form-item#edit-mail-wrapper {
+	width:50%;
+}
+
+#user-profile-form .form-item#edit-pass-pass1-wrapper,
+#user-profile-form .form-item#edit-pass-pass2-wrapper {
+	width:100%;
+}

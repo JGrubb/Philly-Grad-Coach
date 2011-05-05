@@ -1,0 +1,37 @@
+<?php
+
+function pgc_php_calendar_init() {
+	include_once(drupal_get_path('module', 'pgc_php_calendar'). '/calendar.php');
+	drupal_add_css(drupal_get_path('module', 'pgc_php_calendar'). '/calendar.css');
+}
+
+function pgc_php_calendar_block($op = 'list', $delta = 0, $edit = array()) {
+	switch($op) {
+		case 'list':
+			$block[0]['info'] = t('Sidebar Calendar 2');
+			$block[0]['cache'] = BLOCK_NO_CACHE;
+			return $block;
+			
+		case 'view':
+			$calendar = new Calendar();
+			$calendar_next = new Calendar();
+			$calendar_fuck_yeah = new Calendar();
+			$content = $calendar->show();
+			$content .= $calendar_next->show(date("m", strtotime("+1 month")), date("Y"), strtotime("+1 month"));
+			$content .= $calendar_fuck_yeah->show(date("m", strtotime("+2 month")), date("Y"), strtotime("+2 month"));
+			$block['subject'] = t('Sidebar Calendar');
+			$block['content'] = $content;
+			return $block;
+		break;
+	}
+}
+
+function next_month() {
+	$month = date("m");
+	$year = date("Y");
+	if ($month == 12) {
+		$month = 1;
+		$year++;
+	}
+	return "$month, $year";
+}

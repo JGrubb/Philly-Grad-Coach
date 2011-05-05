@@ -17,16 +17,24 @@ h1.page-title {
 	background:#eee;
 	padding:5px 20px;
 	margin-bottom:10px;
+	margin-top:20px;
 }
 
 #header {
-	background:#00437e;
-	padding-top:10px;
+	background:#00457c;
+	padding-top:13px;
+	
 }
 
 #inner-header {
-	background:#dff1ff;
+	background:url(../images/header.jpg) center -13px no-repeat #dff1ff;
+	height:136px;
 	border-bottom:4px solid #5391c3;
+}
+
+#main-wrapper {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
 }
 
 #logo {
@@ -117,11 +125,10 @@ ul.secondary-tabs a:hover {
 	background:#eee;
 	padding:5px;
 	padding-left:20px;
-	margin-bottom:20px;
+	margin:20px 0;
 }
 
 #account-nav {
-	margin-bottom:20px;
 }
 
 #account-nav a {
@@ -170,9 +177,14 @@ ul.secondary-tabs a:hover {
 }
 
 #inner-main {
+	padding: 0 15px;
 }
 
 #inner-right {
+}
+
+#right.grid_3 {
+	width:158px;
 }
 
 #node-15 h2 {
@@ -190,15 +202,23 @@ ul.secondary-tabs a:hover {
 	margin:5px 0;
 }
 
-#block-menu-menu-quick-links a {
+#block-menu-menu-quick-links a,
+.collapsible a {
 	color:#444;
 	padding-left:20px;
 	background:url(../images/link-bg.jpg) no-repeat left center;
 }
 
 .node-event {
-	background:#f6f6f6;
 	padding:20px;
+}
+
+.green {
+	background:#ddffd9;
+}
+
+.red {
+	background:#ffdde6;
 }
 
 .node-event .field {

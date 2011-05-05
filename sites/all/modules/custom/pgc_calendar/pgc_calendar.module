@@ -26,6 +26,8 @@ function pgc_calendar_block($op = 'list', $delta = 0, $edit = array()) {
 			
 		case 'view':
 			$content = '<div class="calendar" id="calendar-1"></div>';
+			$content .= '<div class="calendar" id="calendar-2"></div>';
+			$content .= '<div class="calendar" id="calendar-3"></div>';
 			$block['subject'] = t('Sidebar Calendar');
 			$block['content'] = $content;
 			return $block;

@@ -1,0 +1,4 @@
+name = PGC Trainer flags	
+description = Tweaks for the Trainer Signup feature
+package = Philly Grad Campaign
+core = 6.x

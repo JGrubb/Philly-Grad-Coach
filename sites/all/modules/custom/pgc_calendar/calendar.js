@@ -100,4 +100,38 @@
 
 })(jQuery);
 
+function next_month() {
+	var now   = new Date();
+	var thismonth = now.getMonth() + 1;
+	var thisyear  = now.getYear() + 1900;
+	
+	if (month == 11) {
+		var month = 0;
+		var year = thisyear + 1;
+	} else {
+		var month = thismonth + 1;
+		var year = thisyear;
+	}
+	return thismonth;
+	return year;
+}
+
+function month_after_that() {
+	var now   = new Date();
+	var thismonth = now.getMonth();
+	var thisyear  = now.getYear() + 1900;
+	
+	if (month == 11) {
+		var month = 0;
+		var year = thisyear + 1;
+	} else {
+		var month = thismonth + 1;
+		var year = thisyear;
+	}
+	return month;
+	return year;
+}
+
 jQuery("#calendar-1").calendarWidget();
+jQuery("#calendar-2").calendarWidget(next_month());
+jQuery("#calendar-3").calendarWidget(month_after_that());

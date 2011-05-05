@@ -1,0 +1,4 @@
+name = Sidebar Calendar 2
+description = Provides a block to display the left sidebar calendar.
+package = Philly Grad Campaign
+core = 6.x

@@ -2,9 +2,8 @@ a.unflag-action {
 	/*visibility:hidden;*/
 }
 
-.node-flagged-event-bookmark-self {
+.green {
 	background:#DCFFDF;
-	padding:10px;
 }
 
 td.active {
@@ -22,9 +21,8 @@ table th {
 
 .view-id-home_listing .views-row,
 .view-id-my_events .views-row {
-	padding:20px;
-	background:#f6f6f6;
-	margin:5px 0;
+	padding:20px 20px 40px 20px;
+	margin:20px 0;
 	position:relative;
 }
 
@@ -44,7 +42,11 @@ table th {
 	margin-right:8px;
 }
 
-.view-id-home_listing .views-field-edit-node {
+.views-field-field-notes-value {
+	clear:both;
+}
+
+.view-id-home_listing .views-field-view-node {
 	clear:both;
 	float:left;
 	margin-right:30px;
@@ -57,5 +59,19 @@ table th {
 	position:absolute;
 	top:20px;
 	left:460px;
+}
+
+.view-id-home_listing .views-field-field-trainer-uid label {
 	text-decoration: underline;
+}
+
+.view-id-home_listing .views-field-ops {
+	position:absolute;
+	bottom:20px;
+	left:460px;
+}
+
+.views-field-field-notes-value {
+	padding:15px;
+	margin:30px 0 15px;
 }

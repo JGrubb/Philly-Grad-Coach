@@ -1,0 +1,11 @@
+<?php
+
+function pgc_flags_flag($action, $flag, $content_id, $account) {
+	if($action == 'flag') {
+		if ($flag->name == 'event_bookmark') {
+			$node = node_load($content_id);
+			array_push($node->field_trainer, $account->uid);
+			node_save($node);
+		}
+	}
+}
