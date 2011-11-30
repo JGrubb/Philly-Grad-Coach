@@ -46,12 +46,12 @@ function pgc_preprocess_views_view_unformatted__home_listing(&$vars) {
 	
 	foreach ($rows as $id => $row) {
 		$data = $view->result[$id];
-		$event_class = get_the_classes_for_fucks_sake($data->nid);
+		$event_class = get_the_classes($data->nid);
 		$vars['classes'][$id] .= ' ' . $event_class;
 	}
 }
 
-function get_the_classes_for_fucks_sake($nid) {
+function get_the_classes($nid) {
 	$node = node_load($nid);
 	global $user;
 	if ($user->uid != 0) {
